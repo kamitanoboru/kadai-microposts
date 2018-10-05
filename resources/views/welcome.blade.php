@@ -78,9 +78,16 @@
             @endif
 
             <div class="content">
+                <div>
+                    @php
+                        $now=date('Y/m/d H:i:s');
+                        print $now;
+                    @endphp
+                </div>
                 <div class="title m-b-md">
                     Laravel
                 </div>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
